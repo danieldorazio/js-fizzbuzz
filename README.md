@@ -1,26 +1,40 @@
-### Esercizio
- Scrivi un programma che stampi in console i numeri da 1 a 100,
- ma che per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”.
- Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
- **Prima di partire a scrivere codice poniamoci qualche domanda:**
- Come faccio a sapere se un numero è divisibile senza resto per un altro?
- Abbiamo visto qualcosa di particolare che possiamo usare?
-**Consigli del giorno:**
-1. Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
-2. Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro     programma così come lo faremmo "a mano"
-**BONUS 1:**
- Crea un container nel DOM , aggiungendo un elemento html con il numero o la stringa corretta da mostrare.
-**BONUS 2:**
- Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
- Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+# Fizzbuz Layout - Layout di una griglia creata con javascript Plain
+Questa è una soluzione per eseguire questo esercizio puramente dal lato visivo con il solo uso di HTML e di CSS e javascript Plain.
 
-### Svolgimento 
+## Sommario
+- [Panoramica](#Panoramica)
+  - [La sfida](#La-sfida)
+  - [Screenshot](#screenshot)
+- [Il mio processo](#il-mio-processo)
+  - [Costruito con](#costruito-con)
+  
+## Panoramica
 
+### La sfida
+
+Scrivi un programma che stampi in console i numeri da 1 a 100, ma che per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”. Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
+
+### Screenshot
+
+**Layout**
+
+![Screenshot](https://github.com/danieldorazio/js-fizzbuzz/assets/133901578/a6e95a48-e7c7-4c45-9673-db009d324f02)
+
+
+## Il mio processo
 **Logica**
-- Stampare in console i numeri da 1 a 100 (ciclo for)
-- All'inertno del ciclo controllare se il numero è un multiplo di 3 / 5 o entrambi 
+- Ho stampato in console i numeri da 1 a 100 (ciclo for)
+- All'inertno del ciclo ho controllato se il numero è un multiplo di 3 / 5 o entrambi 
 
 **Output**
- - Far scrivere in console: per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”.
+ - Ho fatto scrivere in console: per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”.
  Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
+
+### Costruito con
+
+- Semantica HTML5 markup
+- CSS Flexbox
+- Javascript Plain
+
+
 
